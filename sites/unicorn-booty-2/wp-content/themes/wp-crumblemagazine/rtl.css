@@ -1,0 +1,32 @@
+/*
+Theme Name: Crumble - Responsive Wordpress Magazine / Blog
+Description: Adds support for languages written in a Right To Left (RTL) direction.
+It's easy, just a matter of overwriting all the horizontal positioning attributes
+of your CSS stylesheet in a separate stylesheet file named rtl.css.
+
+See http://codex.wordpress.org/Right_to_Left_Language_Support
+*/
+
+
+body {
+	direction: rtl;
+	unicode-bidi: embed;
+}
+caption,
+th,
+td {
+	text-align: right;
+}
+
+#menu { float: right; }
+#logo.seven.columns { float: right; }
+.banner img { float: left; }
+#content_masonry .masonry_box { margin-left: 20px; margin-right: 0; }
+.pagination a, .pagination span { float: right; margin-left: 5px; margin-right: 0; }
+.pagination span.current { float: right; margin-left: 5px; margin-right: 0; }
+ul.single-post-meta li.comments-icon { background: url(images/icons/black-meta-comments.png) right center no-repeat; }
+ul.single-post-meta li.date-icon { background: url(images/icons/black-meta-date.png) right center no-repeat; }
+ul.single-post-meta li { float: right; margin-left: 10px; margin-right: 0; padding-right: 22px; padding-left: 0; }
+.jcarousel-skin-tango .jcarousel-next-horizontal { right: inherit; left: 30px; }
+.jcarousel-skin-tango .jcarousel-prev-horizontal { right: inherit; left: 10px; }
+.sf-menu li { float: right; }

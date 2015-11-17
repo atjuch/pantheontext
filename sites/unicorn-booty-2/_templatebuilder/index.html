@@ -1,0 +1,111 @@
+<!doctype html>  
+<html lang="en-us">
+<head>
+    <meta charset="utf-8">
+    
+    <title>Template Builder v 1.3</title>
+    
+    <meta name="description" content="">
+    
+    
+    <link rel="stylesheet" href="_css/style.css">
+
+    <script>document.createElement('footer');document.createElement('header');document.createElement('section');</script>
+        <script src="_js/jquery.1.4.4.js"></script>
+        <script src="_js/jquery.ui.js"></script>
+        <script src="_js/custom.js"></script>
+        <script src="_js/script.js"></script>
+</head>
+    <body id="top">
+    	
+    	<header>
+	
+    	</header>
+        <div id="wrap">
+        <div id="content">
+			<noscript><p>Please activate Javascript to get more information!</p></noscript>
+				
+		<h1><a href="./">Template Builder</a><span class="small">v 1.3</span></h1>
+	<div id="tabs">
+		<ul id="nav">
+			<li><a id="nav1" href="#step1">&nbsp;</a></li>
+			<li><a id="nav2" href="#step2">&nbsp;</a></li>
+			<li><a id="nav3" href="#step3">&nbsp;</a></li>
+		</ul>
+		<div id="step1">
+			<div id="prebuild">
+				<h4>prebuilds</h4>
+				<ul>
+				</ul>
+			</div>
+			<div id="pool">
+				<h4>drag n' drop items</h4>
+				<ul id="elements" class="connect">
+					<li>
+					</li>
+				</ul>
+			</div>
+			<div id="rec">
+				<h4>dropzone</h4><a id="cleardz">clear</a>
+				<div id="headerrec">
+				<img src="../_img/types/header.gif" width="98" alt="header">
+				</div>
+				<ul id="dropzone" class="connect">
+				</ul>
+				<div id="footerrec">
+				<img src="../_img/types/footer.gif" width="98" alt="footer">
+				</div>
+			</div>
+		<hr>
+		</div>
+		<div id="step2">
+		<form id="form">
+			<fieldset id="versions">
+			<h4>Color Variation</h4>
+			<hr>
+				<div>
+				</div>
+			</fieldset>
+			<fieldset>
+			<h4>Service</h4>
+			<label><input type="radio" id="type_normal" name="type" value=""> None, I only need the HTML</label>
+			<label><input type="radio" id="type_mc" name="type" value="_mc"> Mailchimp (<a href="http://www.mailchimp.com/monkey-rewards/?aid=421f94c98cc1b3dc61dea58b9">http://mailchimp.com/</a>)</label>
+			<div id="mailchimpextra">
+			<label>API Key *<input type="text" id="apikey" name="apikey" value="" class="input"></label>&nbsp;<a class="btn" href="http://admin.mailchimp.com/account/api-key-popup">get your API key</a>
+			<label>Template Name *<input type="text" id="templatename" name="templatename" value="" class="input"></label>
+			<label class="small">* required for API upload</label>
+			</div>
+			<h4>formating</h4>
+			<label><input type="checkbox" id="header_footer" name="header_footer" value="1"> include Header and Footer</label>
+			<label><input type="checkbox" id="inlinecss" name="inlinecss" value="1"> inline CSS <span class="info">you can change styling and inline your CSS with <a href="http://premailer.dialect.ca/">premailer</a> later</span></label>
+			<h4>images hosted at</h4>
+			<label><input type="text" id="domain" name="domain" value="" class="input"></label>
+			<label><input type="checkbox" id="absoluteurls" name="absoluteurls" value="1"> absolute URLs <span class="info">recommended, only use relative paths when embedding images in email (phpMailer). Some clients wont display embeded background images. Embeded CSS background images are not possible</span></label>
+			</fieldset>
+			<hr>
+			<fieldset>
+			<label><input type="checkbox" id="savesettings" name="savesettings" value="1"> Save settings <span class="info">saves all settings in a cookie on this computer</span></label>
+			</fieldset>
+		</form>
+			<textarea id="raw"></textarea>
+			<hr>
+		</div>
+		<div id="step3">
+			<h4>Options</h4>
+			<a id="previewbtn" class="btn">Preview</a>
+			<a id="mailchimpupload" class="btn">Upload to Mailchimp</a>
+			<span id="mc_status"></span>
+			<h4>Your HTML</h4>
+			<textarea id="result" readonly></textarea>	
+			<hr>
+		</div>
+		<hr>
+
+	</div>
+
+	
+			
+       </div><!-- end div #content -->
+       </div><!-- end div #wrap -->
+      </body>
+</html>

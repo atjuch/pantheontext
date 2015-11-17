@@ -1,0 +1,225 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: TheStyle 1.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2010-10-11 01:28+0600\n"
+"PO-Revision-Date: 2010-10-11 01:28+0600\n"
+"Last-Translator: Ann <anochka1985@gmail.com>\n"
+"Language-Team: Ann <anochka1985@gmail.com>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-KeywordsList: _e;__\n"
+"X-Poedit-Basepath: .\n"
+"X-Poedit-Language: German\n"
+"X-Poedit-Country: GERMANY\n"
+"X-Poedit-SourceCharset: utf-8\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPath-1: ..\n"
+
+#: ../comments.php:9
+msgid "Please do not load this page directly. Thanks!"
+msgstr "Uploaden Sie bitte diese Seite direkt nicht. Danke!"
+
+#: ../comments.php:13
+msgid "This post is password protected. Enter the password to view comments."
+msgstr "Dieser Artikel ist passwortgeschützt. Geben Sie Ihr Passwort ein um die Kommentare anzuzeigen."
+
+#: ../comments.php:25
+msgid "0 Comments"
+msgstr "Keine Kommentare"
+
+#: ../comments.php:25
+msgid "1 Comment"
+msgstr "1 Kommentar"
+
+#: ../comments.php:25
+msgid "Comments"
+msgstr "Kommentare"
+
+#: ../comments.php:44
+msgid "Trackbacks/Pingbacks"
+msgstr "Trackbacks/Pingbacks"
+
+#: ../comments.php:67
+msgid "Leave a Comment"
+msgstr "Einen Kommentar schreiben"
+
+#: ../comments.php:67
+#, php-format
+msgid "Leave a Comment to %s"
+msgstr "Einen Kommentar schreiben zu %s"
+
+#: ../comments.php:73
+msgid "You must be"
+msgstr "Du musst"
+
+#: ../comments.php:73
+msgid "logged in"
+msgstr "eingeloggt"
+
+#: ../comments.php:73
+msgid "to post a comment."
+msgstr "sein um einen Kommentar zu schreiben."
+
+#: ../comments.php:77
+msgid "Logged in as"
+msgstr "Angemeldet als"
+
+#: ../comments.php:77
+msgid "Log out &raquo;"
+msgstr "Abmelden &raquo;"
+
+#: ../comments.php:81
+msgid "Name"
+msgstr "Name"
+
+#: ../comments.php:82
+#: ../comments.php:88
+msgid "(required)"
+msgstr "(ben&ouml;tigt)"
+
+#: ../comments.php:87
+msgid "Mail (will not be published)"
+msgstr "Mail (wird nicht ver&ouml;ffentlicht)"
+
+#: ../comments.php:93
+msgid "Website"
+msgstr "Website"
+
+#: ../comments.php:101
+msgid "Submit Comment"
+msgstr "Kommentar absenden"
+
+#: ../footer.php:10
+msgid "Designed by "
+msgstr "Designed by"
+
+#: ../footer.php:10
+msgid "Powered by "
+msgstr "Powered by"
+
+#: ../functions.php:38
+msgid "Primary Menu"
+msgstr ""
+
+#: ../header.php:56
+#: ../epanel/custom_functions.php:200
+msgid "Home"
+msgstr "Startseite"
+
+#: ../header.php:68
+msgid "Search this website..."
+msgstr "Suchen..."
+
+#: ../page.php:23
+#: ../single.php:29
+msgid "Pages"
+msgstr "Seiten"
+
+#: ../page.php:24
+#: ../single.php:30
+msgid "Edit this page"
+msgstr "Seite bearbeiten"
+
+#: ../searchform.php:4
+msgid "Search"
+msgstr "Suchen"
+
+#: ../single.php:21
+msgid "Posted"
+msgstr "Gepostet"
+
+#: ../single.php:21
+msgid "by"
+msgstr "von"
+
+#: ../single.php:21
+msgid "on"
+msgstr "am"
+
+#: ../single.php:21
+msgid "in"
+msgstr "in"
+
+#: ../single.php:21
+msgid "0 comments"
+msgstr "Keine Kommentare"
+
+#: ../single.php:21
+msgid "1 comment"
+msgstr "1 Kommentar"
+
+#: ../single.php:21
+msgid "comments"
+msgstr "Kommentare"
+
+#: ../includes/breadcrumbs.php:8
+msgid "Posts Tagged "
+msgstr "Artikel getaggt mit"
+
+#: ../includes/breadcrumbs.php:10
+#: ../includes/breadcrumbs.php:12
+#: ../includes/breadcrumbs.php:14
+msgid "Posts made in"
+msgstr "Gepostet im"
+
+#: ../includes/breadcrumbs.php:16
+msgid "Search results for"
+msgstr "Suchresultate"
+
+#: ../includes/breadcrumbs.php:24
+msgid "Posts by "
+msgstr "Gepostet von"
+
+#: ../includes/entry.php:24
+msgid "posted by"
+msgstr "gepostet von"
+
+#: ../includes/infopanel.php:28
+msgid "Tags"
+msgstr "Tags"
+
+#: ../includes/infopanel.php:33
+msgid "Related Posts"
+msgstr "Verwandte Artikel"
+
+#: ../includes/infopanel.php:64
+msgid "Share This"
+msgstr "Share"
+
+#: ../includes/no-results.php:3
+msgid "No Results Found"
+msgstr "Nicht gefunden"
+
+#: ../includes/no-results.php:4
+msgid "The page you requested could not be found. Try refining your search, or use the navigation above to locate the post."
+msgstr "Keine Seite gefunden. Etwas anderes Suchen?"
+
+#: ../includes/functions/comments.php:18
+msgid "Your comment is awaiting moderation."
+msgstr "Dein Kommentar wartet auf die &Uuml;berpr&uuml;fung."
+
+#: ../includes/functions/comments.php:23
+msgid "Reply"
+msgstr "Beantworten"
+
+#: ../includes/widgets/widget-tabbed.php:20
+msgid "Recent"
+msgstr "Letztes"
+
+#: ../includes/widgets/widget-tabbed.php:21
+msgid "Popular"
+msgstr "Beliebt"
+
+#: ../includes/widgets/widget-tabbed.php:22
+msgid "Random"
+msgstr "Zufällig"
+
+#~ msgid "Read More"
+#~ msgstr "Mehr"
+#~ msgid "Previous"
+#~ msgstr "&Auml;ltere "
+#~ msgid "Next"
+#~ msgstr "Neuere"
+

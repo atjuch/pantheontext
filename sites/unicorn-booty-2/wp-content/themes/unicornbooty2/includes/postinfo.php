@@ -1,0 +1,8 @@
+<?php if (!is_single() && get_option('ubooty_postinfo1') <> '') { ?>
+	<p class="post-meta"><?php _e('Posted','ubooty'); ?> <?php if (in_array('author', get_option('ubooty_postinfo1'))) { ?> <?php _e('by','ubooty'); ?> <?php the_author_posts_link(); ?><?php }; ?><?php if (in_array('date', get_option('ubooty_postinfo1'))) { ?> <?php _e('on','ubooty'); ?> <?php the_time(get_option('ubooty_date_format')) ?><?php }; ?><?php if (in_array('categories', get_option('ubooty_postinfo1'))) { ?> <?php _e('in','ubooty'); ?> <?php the_category(', ') ?><?php }; ?><?php if (in_array('comments', get_option('ubooty_postinfo1'))) { ?> | <?php comments_popup_link(__('0 comments','ubooty'), __('1 comment','ubooty'), '% '.__('comments','ubooty')); ?><?php }; ?></p>
+	<div class="clear"></div>
+<?php } elseif (is_single() && get_option('ubooty_postinfo2') <> '') { ?>
+	<p class="post-meta">
+		<?php _e('Posted','ubooty'); ?> <?php if (in_array('author', get_option('ubooty_postinfo2'))) { ?> <?php _e('by','ubooty'); ?> <?php the_author_posts_link(); ?><?php }; ?><?php if (in_array('date', get_option('ubooty_postinfo2'))) { ?> <?php _e('on','ubooty'); ?> <?php the_time(get_option('ubooty_date_format')) ?><?php }; ?><?php if (in_array('categories', get_option('ubooty_postinfo2'))) { ?> <?php _e('in','ubooty'); ?> <?php the_category(', ') ?><?php }; ?><?php if (in_array('comments', get_option('ubooty_postinfo2'))) { ?> | <?php comments_popup_link(__('0 comments','ubooty'), __('1 comment','ubooty'), '% '.__('comments','ubooty')); ?><?php }; ?>
+	</p>
+<?php }; ?>

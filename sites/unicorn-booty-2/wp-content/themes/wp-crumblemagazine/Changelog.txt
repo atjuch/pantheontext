@@ -1,0 +1,316 @@
+---------------------------------------------------------------------
+Crumble - Responsive Wordpress Magazine / Blog v 1.11 - Changelog
+---------------------------------------------------------------------
+
+
+
+
+--------------------------
+Version 1.11 2013-11-23
+--------------------------
+
+- Improved: Menu
+- Improved: Localization
+- Fixed: Issue with Blog style 3
+- Fixed: Minor Bugs
+
+Changed files:
+- light.css
+- style.css
+- template-blog3.php
+- functions.php
+- archive.php
+- header.php
+- index.php
+- /functions/crumble-widget-twitter.php
+- /functions/crumble-recent-comments-widget.php
+- /includes/carousel.php
+- /admin/functions/functions.options.php
+- /admin/functions/functions.mediauploader.php
+
+New files:
+- rtl.css
+
+
+
+
+--------------------------
+Version 1.10 2013-06-24
+--------------------------
+- Fixed: Bug pagination on Search page.
+- Added: Pagination for post page.
+- Added: A new tab in the "CrumbleMagazine Options" for the Twitter.
+- Fixed: Issue with Twitter widget.
+- Fixed: Issue with Twitter followers counter.
+- Fixed: Minor Bugs
+
+Changed files:
+- style.css
+- light.css
+- functions.php
+- search.php
+- page.php
+- single.php
+- \functions\crumble-widget-twitter.php
+- \functions\social-counter\social-counter-widget.php
+- \functions\crumble-recent-comments-widget.php
+- \admin\functions\functions.options.php
+- \admin\assets\css\admin-style.css
+
+New files:
+- \functions\twitteroauth.php
+- \functions\social-counter\TwitterAPIExchange.php
+- \admin\assets\images\icon-twitter.png
+
+
+
+
+
+--------------------------
+Version 1.09 2013-02-18
+--------------------------
+- Improved: Responsiveness for video content
+- Fixed: Bug with images aspect ratio
+- Fixed: Minor Bugs
+
+Changed files:
+- style.css
+- light.css
+- single-reviews.php
+- single.php
+- functions.php
+- \css\nivo-slider.css
+- \css\prettyphoto.css
+- \admin\functions\functions.options.php
+
+
+
+
+
+
+--------------------------
+Version 1.08 2012-12-09
+--------------------------
+- Improved: Social Counter widget (added Youtube, fixed issue with Twitter)
+- Fixed: Minor Bugs
+
+Changed files:
+- header.php
+- functions.php
+- single.php
+- \js\jcarousel_update.js
+- \functions\social-counter\social-counter-widget.php
+- light.css
+- style.css
+
+New files:
+- \images\icons\youtube.png
+
+
+
+
+--------------------------
+Version 1.07 2012-09-26
+--------------------------
+- Improved: Reviews were coded with schema.org format (SEO)
+- Improved: SEO issue (H1, custom meta tags, etc.)
+- Added: Show Featured Images in RSS Feed
+- Added: Template for displaying Author Archive pages
+- Added: Option for Google Adsense (or other) banner.
+- Fixed: Pagination in the Blog templates.
+- Fixed: Minor Bugs
+
+
+Changed files:
+- header.php
+- template-blog1.php
+- template-blog2.php
+- template-blog3.php
+- comments.php
+- category.php
+- archive.php
+- template-right-sidebar.php
+- template-left-sidebar.php
+- template-fullwidth.php
+- single.php
+- single-reviews.php
+- functions.php
+- \css\styles.php
+- \includes\carousel.php
+- \includes\post_views.php
+- \admin\functions\functions.options.php
+- light.css
+- style.css
+
+New files:
+- author.php
+
+
+
+--------------------------
+Version 1.06 2012-08-24
+--------------------------
+- Added: Option for the carousel - 'Number Of Items to Show'
+- Fixed: Minor Bugs
+
+Changed files:
+- \includes\carousel.php
+- \admin\functions\functions.options.php
+- light.css
+- style.css
+
+
+
+
+--------------------------
+Version 1.05 2012-08-15
+--------------------------
+- Fixed: Translation bugs
+- Changed: Output slider images
+- Fixed: Minor Bugs
+
+Changed files:
+- functions.php
+- search.php
+- single-reviews.php
+- taxonomy-review_category.php
+- single.php
+- comments.php
+- category.php
+- template-reviews.php
+- tag.php
+- template-blog2.php
+- template-blog3.php
+- template-blog1.php
+- \functions\crumble-tabs-widget.php
+- \functions\crumble-1-column-magazine-widget-horizontal.php
+- \functions\crumble-2-columns-magazine-widget-thumbs.php
+- \functions\crumble-2-columns-magazine-widget-vertical.php
+- \functions\crumble-popular-post-widget.php
+- \functions\crumble-1-column-magazine-widget-reviews.php
+- \functions\crumble-2-columns-magazine-widget-reviews.php
+- \functions\crumble-recent-posts-widget.php
+- \functions\reviews\crumble_create_review.php
+- \includes\slider.php
+- light.css
+- style.css
+
+
+
+
+--------------------------
+Version 1.04 2012-08-10
+--------------------------
+- Added: Check for the carousel and slider, if no Featured Image.
+- Added: Options for 'Read more' button, show/hide.
+- Added: 3 additional fields for slideshow images.
+- Fixed: Minor Bugs
+
+Changed files:
+- functions.php
+- single.php
+- comments.php
+- search.php
+- tag.php
+- category.php
+- template-reviews.php
+- template-blog1.php
+- template-blog2.php
+- template-blog3.php
+- \functions\reviews\crumble_create_review.php
+- \css\options.css
+- \css\nivo-slider.css
+- \admin\functions\functions.options.php
+- \includes\post_views.php
+- \includes\slider.php
+- \includes\carousel.php
+- light.css
+- style.css
+
+
+
+
+--------------------------
+Version 1.03 2012-07-31
+--------------------------
+- Fixed: Bug with Links in the Carousel
+
+
+Changed files:
+- /includes/carousel.php
+
+
+
+
+--------------------------
+Version 1.02 2012-07-28
+--------------------------
+- Fixed: Coflict with SounCloud Shortcode
+
+
+Changed files:
+- /includes/soundcloud-shortcode.php
+
+
+
+
+--------------------------
+Version 1.01 2012-07-28
+--------------------------
+- Added: Light Skin
+- Added: Background Images (Light & Dark)
+- Added: Uploader for Background Images
+- Added: Two Widget Areas in the Blog
+- Added: Initialization for Theme Localization
+- Added: Shortcodes (columns, lists, media, google adsense, etc.)
+- Fixed: Minor Bugs
+
+
+Changed files:
+- light.css (new file)
+- style.css
+- header.php
+- functions.php
+- comments.php
+- single-reviews.php
+- template-reviews.php
+- taxonomy-review_category.php
+- template-blog3.php
+- template-blog2.php
+- template-blog1.php
+- /languages/* (new directory & files)
+- /admin/layout/dark.css
+- /admin/layout/light.css
+- /admin/functions/functions.options.php
+- /admin/index.php
+- /css/styles.php
+- /css/options.css
+- /css/nivo-slider.css
+- /css/flexslider.css
+- /css/layout.css
+- /functions/crumble-recent-reviews-widget.php
+- /functions/crumble-2-columns-magazine-widget-reviews.php
+- /functions/crumble-1-column-magazine-widget-reviews.php
+- /functions/crumble-video-widget.php
+- /js/jcarousel_update.js
+- /js/custom.js
+- /includes/soundcloud-shortcode.php
+- /includes/post_views.php
+- /includes/shortcodes.php
+- /images/*
+- /images/bg/*
+- /images/icons/*
+- /images/stars/*
+
+
+
+
+Version 1.0 2012-07-24
+--------------------------
+- Release
+
+
+
+
+ZERGE <zerge.com@gmail.com>
+http://color-theme.com/

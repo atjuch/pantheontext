@@ -1,0 +1,26 @@
+span.sf-sub-indicator {padding-left: 2px;}
+
+#header { z-index: 5;  position: relative; }
+#content { z-index: 4; position: relative; }
+
+#container { width: 100%; }
+
+.thumbnail a:hover { cursor: pointer; }
+
+ul.nav ul li a { background:url("../images/dropdown-bullet.png") no-repeat scroll 0 5px transparent; }
+ul.nav ul li a:hover { background: url(../images/dropdown-bullet.png) no-repeat 0 -15px; }
+
+#comment-wrap { 
+
+background: #e0dbca url(http://dev-unicorn-booty-2.pantheon.io/wp-content/themes/unicornbooty2/images/cementbg.gif) repeat; 
+border:1px solid #e0dbca; 
+margin-bottom:15px;
+margin-left:31%;padding:30px 0 0;
+}
+
+#left-area .post {
+background: #e0dbca url(http://dev-unicorn-booty-2.pantheon.io/wp-content/themes/unicornbooty2/images/cementbg.gif) repeat;
+border:1px solid #e0dbca;
+margin-bottom:15px;
+padding:30px 0 0;
+}

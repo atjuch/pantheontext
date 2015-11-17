@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss  version="2.0">
+    <channel>
+        <title>Unicorn Booty</title>
+        <description>Unicorn Booty's Main Feed</description>
+        <link>http://unicornbooty.com</link>
+        <docs>http://blogs.law.harvard.edu/tech/rss</docs>
+        <lastBuildDate>Fri, 06 Feb 2015 01:29:20 -0500</lastBuildDate>
+        <pubDate>Fri, 06 Feb 2015 01:28:55 -0500</pubDate>
+        <generator>FeedForAll Mac v2.1 (2.1.0.1) unlicensed version; http://www.FeedForAll.com/</generator>
+        <item>
+            <title>Unicorn Booty RSS Feed</title>
+            <description>Unicorn Booty's Main Feed</description>
+            <link>http://unicornbooty.com</link>
+            <guid isPermaLink="false">928D2A12-33BB-4997-BDA0-9876B2EE80B9-11040-0001AB621DB3D90B-FFA</guid>
+            <pubDate>Fri, 06 Feb 2015 01:29:17 -0500</pubDate>
+        </item>
+
+    </channel>
+</rss>

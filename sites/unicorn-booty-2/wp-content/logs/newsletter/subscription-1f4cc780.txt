@@ -1,0 +1,2 @@
+23-04-2015 23:46:10 - INFO  - 2.4 MB - Version changed from 1.1.2 to 1.1.3
+23-04-2015 23:46:10 - INFO  - 2.4 MB - upgrade> Start
